@@ -1,5 +1,5 @@
 'use strict';
-/*
+
 const currrentYear = new Date();
 class Person {
   constructor(firstName, lastName, gender, birthYear) {
@@ -34,34 +34,34 @@ const shaikat = new bankAccount('Shaikat', 'Barua', 'Male', 1997, 1111, 'CSE');
 shaikat.introduce();
 shaikat.newPin = 2222;
 console.log(shaikat.pin);
-*/
-// shaikat.introduce();
-// console.log(shaikat.age);
-// console.log(shaikat.lastName);
-// const zakaria = {
-//   firstName: 'Zakaria',
-//   lastName: 'Iqbal',
-//   birthYear: 1997,
-//   gender: 'Male',
-//   introduce() {
-//     console.log(`Hi my name is ${this.firstName} ${this.lastName}`);
-//   },
-// };
-// zakaria.introduce();
-// console.log(zakaria.firstName);
 
-// const zakaria = {
-//     firstName: 'Zakaria',
-//     secondName: 'Iqbal',
-//     birthYear: 1997,
-//     gender: 'Male',
-//   };
-//   const zakaria = {
-//     firstName: 'Zakaria',
-//     secondName: 'Iqbal',
-//     birthYear: 1997,
-//     gender: 'Male',
-//   };
+shaikat.introduce();
+console.log(shaikat.age);
+console.log(shaikat.lastName);
+const zakaria = {
+  firstName: 'Zakaria',
+  lastName: 'Iqbal',
+  birthYear: 1997,
+  gender: 'Male',
+  introduce() {
+    console.log(`Hi my name is ${this.firstName} ${this.lastName}`);
+  },
+};
+zakaria.introduce();
+console.log(zakaria.firstName);
+
+const zakaria = {
+  firstName: 'Zakaria',
+  secondName: 'Iqbal',
+  birthYear: 1997,
+  gender: 'Male',
+};
+const zakaria = {
+  firstName: 'Zakaria',
+  secondName: 'Iqbal',
+  birthYear: 1997,
+  gender: 'Male',
+};
 
 const currrentYear = new Date();
 // console.log(currrentYear);
